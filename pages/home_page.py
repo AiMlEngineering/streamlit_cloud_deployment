@@ -4,7 +4,7 @@ import streamlit as st
 
 # for page on
 def app():
-    st.subheader('A simple frontend prototype application')
+    st.subheader('titanic disaster survivor prediction app')
 
     # Display Simple decription of app goal's
     st.text_area(
