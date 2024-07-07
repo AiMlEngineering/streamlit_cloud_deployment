@@ -1,0 +1,20 @@
+# We use compatible release functionality (see PEP 440 here: https://www.python.org/dev/peps/pep-0440/#compatible-release)
+# to specify acceptable version ranges of our project dependencies. This gives us the flexibility to keep up with small
+# updates/fixes, whilst ensuring we don't install a major update which could introduce backwards incompatible changes.
+
+# === ML MODEL STEP ===
+numpy
+pandas
+pathlib
+typing
+scikit-learn
+sentence_transformers
+gensim
+category_encoders
+feature_engine
+pyod
+joblib>=0.10.0,<1.4.2
+
+# === STREAMLIT APP BUILDING STEP ===
+streamlit
+streamlit_option_menu
